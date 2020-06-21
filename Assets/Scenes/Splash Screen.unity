@@ -166,6 +166,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60310ebf98ea3324c841528e00887c89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _splashScreenDuration: 5
 --- !u!1 &73399115
 GameObject:
   m_ObjectHideFlags: 0
@@ -551,6 +552,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2087351165}
   - component: {fileID: 2087351166}
+  - component: {fileID: 2087351167}
   m_Layer: 0
   m_Name: Music Player
   m_TagString: Untagged
@@ -668,6 +670,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &2087351167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2087351164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a551d8fb6c82bf4097ae7a3495d43ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2117734244
 GameObject:
   m_ObjectHideFlags: 0
